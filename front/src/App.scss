@@ -1,0 +1,18 @@
+$main-color: #051021;
+$accent-color: #d75959;
+
+.app{
+  height: 100%;
+  display: grid;
+  grid-template-columns: 570px 1fr;
+  grid-template-areas: 'aside content';
+}
+
+.login{
+  grid-area: aside;
+  background-color: $main-color;
+}
+
+.content{
+  grid-area: content;
+}
