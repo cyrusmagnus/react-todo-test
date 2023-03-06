@@ -1,5 +1,6 @@
 $main-color: #051021;
 $accent-color: #d75959;
+$placeholder-color:  #9a9a9a;
 
 .app{
   height: 100%;
@@ -10,6 +11,9 @@ $accent-color: #d75959;
 
 .login{
   grid-area: aside;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: $main-color;
 }
 
