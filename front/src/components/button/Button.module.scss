@@ -1,0 +1,17 @@
+@import '../../App.scss';
+
+.button{
+  display: block;
+  outline: none;
+  background: none;
+  width: 100px;
+  height: 34px;
+  border: 1px solid $accent-color;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 14px;
+  transition: all .2s;
+  &:hover{
+    box-shadow: none;
+  }
+}
